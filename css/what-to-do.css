@@ -1,0 +1,1264 @@
+/*strat what to do
+-----------------------------------------*/
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+
+
+ h3
+ {
+     text-transform: uppercase;
+     color: #444444;
+     margin-bottom: 25px;
+     display: inline-block;
+     font-weight: bold;
+ }
+  h3 span
+ {
+     background: linear-gradient(90deg,#2193b0 , #6dd5ed);
+     width: 60px;
+     height: 2px;
+     display: inline-block
+ }
+ /******/
+.what-to-do
+{
+    padding: 40px 10px ;
+}
+.what-to-do .card
+{
+    margin-bottom: 20px;
+    transition: all 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.what-to-do .card:hover
+{
+box-shadow: 0 0px 20px rgba(0,0,0,0.3);
+}
+.what-to-do .card .img-content
+{
+    height: 230px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.what-to-do .card .img-content img
+{
+    height: 100%;
+    display: block;
+    transition: all 0.5s;
+
+}
+.what-to-do .card .card-title {
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2193b0;
+}
+.what-to-do .card  p
+{
+    color: #777777;
+}
+.what-to-do .card .card-link
+{
+    background: #08526d;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    width: 55%;
+    margin: 10px auto;
+    transition: all 0.4s;
+}
+.what-to-do .card .card-link:hover
+{
+    background: #2193b0;
+}
+.what-to-do .card:hover  img
+{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+/*start ttravel-packages header
+-----------------------------------*/
+.img-header
+{
+
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+.img-header.our-history
+{
+    background: url(../img/our-history.jpg) scroll center bottom no-repeat;
+}
+.img-header.mice
+{
+    background: url(../img/what-to-do.jpg) scroll center bottom no-repeat;
+}
+.img-header.what-to-do
+{
+    background: url(../img/what-to-do.jpg) scroll center bottom no-repeat;
+}
+.img-header.travel-packages
+{
+    background: url(../img/travel-pakcages.jpg) scroll center bottom no-repeat;
+}
+
+.img-header.shore-excursions
+{
+    background: url(../img/shore-excursion.jpg) scroll center bottom no-repeat;
+}
+.img-header.day-tours
+{
+    background: url(../img/day-tours.jpg) scroll center bottom no-repeat;
+}
+.img-header.transfers
+{
+    background: url(../img/transfers.jpg) scroll center bottom no-repeat;
+}
+.img-header.stopover
+{
+    background: url(../img/stopover.jpg) scroll center bottom no-repeat;
+}
+.img-header.testimonials
+{
+  background: url(../img/testmonials.jpg) scroll center bottom no-repeat;
+}
+.img-header.night-activities
+{
+    background: url(../img/night-activites.jpg) scroll center bottom no-repeat;
+}
+.img-header.egypt-safety-updates
+{
+    background: url(../img/egypt-safety.png) scroll center bottom no-repeat;
+}
+.img-header.egypt-travel-blog
+{
+    background: url(../img/EGYPT-BLOG.jpg) scroll center bottom no-repeat;
+}
+.img-header.contact-us
+{
+    background: url(../img/contact-us.jpg) scroll center bottom no-repeat;
+}
+.img-header.tailor
+{
+    background: url(../img/tailor.jpg) scroll center bottom no-repeat;
+}
+.img-header.checkout
+{
+    background: url(../img/chekout.jpg) scroll center bottom no-repeat;
+}
+
+.img-header .overlay
+{
+    background: rgba(0,0,0,0.4)
+}
+.img-header nav
+{
+        position: absolute;
+        bottom: 0;
+}
+.breadcrumb
+{
+    background: transparent;
+}
+ .breadcrumb-item
+{
+    font-size: 20px;
+    text-transform: capitalize
+}
+.breadcrumb-item.active
+{
+    color: #dddddd
+}
+.breadcrumb-item + .breadcrumb-item::before
+{
+    content: "\279E";
+    color: #2193b0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.breadcrumb li a{
+    color: #2193b0;
+    transition: all 0.4s
+}
+.breadcrumb li a:hover
+{
+    color: #6dd5ed;
+}
+
+.img-header  .title-header
+{
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.img-header .h1
+{
+font-size: 3.2rem;
+color: #ffffff;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.img-header h2
+{
+    color: #ffffff;
+    text-transform: capitalize;
+
+}
+@media (max-width:768px)
+{
+    .img-header .h1
+    {
+    font-size: 2.5rem;
+
+    }
+    .img-header h2
+    {
+       font-size: 1.4rem;
+
+    }
+}
+.title .content
+{
+    padding: 40px 0;
+}
+
+.title .content p
+{
+    color: #777777;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*start travel-packages tages
+------------------------------------------------------*/
+.travel-packages,
+.shore-excursion,
+.day-tours,
+.transfers
+
+{
+    padding: 40px 0;
+}
+.travel-packages .grid,
+.day-tours .grid,
+.shore-excursion .grid,
+.transfers .grid
+
+{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    overflow: hidden;
+}
+.travel-packages .items,
+.shore-excursion .items,
+.day-tours .items,
+.transfers .items
+{
+    position: relative;
+    transition: all 0.4s;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.travel-packages .items h4,
+.shore-excursion .items h4,
+.day-tours .items h4,
+.transfers .items h4
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    z-index: 1;
+    transition: all 0.6s;
+    transform: translate(-50%,-50%) scale(1);
+}
+.travel-packages .items .content-tags,
+.shore-excursion .items .content-tags,
+.day-tours .items .content-tags,
+.transfers .items .content-tags
+{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.81);
+    color: #000;
+    box-shadow: 0px -20px 18px 20px rgba(255, 255, 255, 0.81);
+    text-align: left;
+    transition: all 0.6s;
+}
+.travel-packages .items .content-tags h5,
+.shore-excursion .items .content-tags h5,
+.day-tours .items .content-tags h5,
+.transfers .items .content-tags h5
+{
+  margin-top: -23px;
+  margin-left: 11px ;
+  font-size: 24px;
+  text-transform: capitalize;
+
+}
+.travel-packages .items .content-tags p,
+.shore-excursion .items .content-tags p,
+.day-tours .items .content-tags p,
+.transfers .items .content-tags p
+{
+  font-size: 15px;
+  color: #444444;
+  padding: 0 10px;
+}
+.travel-packages .items img,
+.shore-excursion .items img,
+.day-tours .items img,
+.transfers .items img
+{
+    display: block;
+    max-width: 100%;
+    transition: all 0.6s;
+
+}
+.travel-packages .items:hover img,
+.shore-excursion .items:hover img,
+.day-tours .items:hover img,
+.transfers .items:hover img
+{
+    transform: scale(1.09);
+}
+.travel-packages .items:hover h4,
+.shore-excursion .items:hover h4,
+.day-tours .items:hover h4,
+.transfers .items:hover h4
+{
+  transform: translate(-50%,-50%) scale(0) ;
+}
+.travel-packages .items:hover .content-tags,
+.shore-excursion .items:hover .content-tags,
+.day-tours .items:hover .content-tags,
+.transfers .items:hover .content-tags
+{
+  bottom: 0;
+}
+@media (max-width:768px)
+{
+    .travel-packages .grid,
+    .shore-excursion .grid,
+    .day-tours .grid,
+    .transfers .grid
+    {
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+}
+
+
+/* start mice
+----------------------------------------------*/
+.mice-content
+{
+    margin: 40px 0 0 0;
+    overflow: hidden;
+}
+.mice-content .image-cont
+{
+    height: 350px;
+}
+.mice-content .image-cont img
+{
+    height: 100%;
+}
+
+.mice-content .mice-items h3
+{
+    text-transform: capitalize;
+    display: inline-block;
+
+    color: #666;
+    font-weight: bold;
+    margin:  40px ;
+}
+.mice-content .mice-items h3 span
+{
+    display: inline-block;
+    background: linear-gradient(90deg,#2193b0,#6dd5ed);
+    height: 2px;
+    width: 60px;
+
+}
+.mice-content .mice-items p
+{
+    color: #7c7c7c;
+    FONT-SIZE: 14PX;
+    padding: 0 40px ;
+    text-transform: inherit;
+    letter-spacing: 1px;
+}
+.row.left
+{
+    background: linear-gradient(90deg,#08526d,#2193b0,#6dd5ed);
+}
+.mice-content .row.left .mice-items h3 ,
+.mice-content .row.left .mice-items p
+{
+    color: #ffffff;
+}
+.offers /***** start offers *****/
+{
+    padding: 40px 20px;
+}
+.offers h2
+{
+    color: #777777;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.offers  h2 span
+{
+    display: inline-block;
+    background: linear-gradient(90deg,#2193b0,#6dd5ed);
+    height: 2px;
+    width: 60px;
+}
+.offers ul
+{
+    padding: 0;
+    margin: 0;
+}
+.offers ul li
+{
+    padding: 5px ;
+    color: #666;
+    font-size: 14px;
+}
+.offers ul li::before
+{
+
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    margin-right: 5px;
+    display: inline-block;
+    color: #2193b0;
+}
+/*** start form apply *****/
+.apply-now
+{
+    padding: 60px 0;
+    background: linear-gradient(90deg,#08526d,#2193b0,#6dd5ed);
+}
+.apply-now h3
+{
+    color: #ffffff ;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.apply-now h3 span
+{
+    display: inline-block;
+    background: linear-gradient(90deg,#2193b0,#6dd5ed);
+    height: 2px;
+    width: 60px;
+}
+.apply-now  label
+{
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+.apply-now  .form-control
+{
+
+    height: calc(2em + 0.75rem + 2px);
+    color: #f4f4f4;
+    background-color: #00000063;
+    border: 0;
+    border-radius: 0.5rem;
+
+}
+.apply-now  .form-control:focus
+{
+    box-shadow: 0 0 0 0.3rem #6dd5ed91;
+}
+.apply-now  .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 0.6;
+}
+.form-control.text-area
+{
+    min-height: 140px;
+}
+.apply-now .btn.book
+{
+    margin-top: 30px
+}
+/************************************************
+************* strat about us links **************
+*************************************************/
+
+/* start out hesitory
+------------------------------------*/
+
+
+/* start why us
+----------------------*/
+.key-factor
+{
+    padding: 40px  0;
+}
+.key-factor .btn
+{
+    font-size: 14px;
+    font-weight: bold;
+    background: linear-gradient(90deg,#2193b0,#6dd5ed);
+    color: #ffffff;
+    border:none;
+}
+.key-factor i
+{
+    margin : 0 5px;
+
+}
+.key-factor  p
+{
+    color: #666;
+    font-size: 15px;
+}
+.awards
+{
+    padding: 40px  0;
+}
+
+
+/*******************************************
+---------- start testmonails----------------
+********************************************/
+.video-test
+{
+    padding: 60px 0;
+    background: linear-gradient(90deg,#08526d,#2193b0,#6dd5ed);
+}
+.video-test h3
+{
+    color: #ffffff;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+.blog .carousel-item .over
+{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.blog .carousel-indicators li
+{
+    border: 0;
+    width: 15px;
+    height: 15px;
+    background: #08526d;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.review-test
+{
+    padding: 60px 0;
+}
+.reviews
+{
+
+    overflow: hidden;
+}
+.reviews p
+{
+    position: relative;
+    color: #fff;
+    font-style: italic;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px #9e989c;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.reviews p.color-1
+{
+    background: #c4005b;
+}
+.reviews p.color-2
+{
+    background: #00adb9;
+}
+.reviews p.color-3
+{
+    background: #c300ff;
+}
+.reviews p::after
+{
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.reviews p.color-1::after
+{
+    border-top: 10px solid #c4005b;
+}
+.reviews p.color-2::after
+{
+    border-top: 10px solid #00adb9;
+}
+.reviews p.color-3::after
+{
+    border-top: 10px solid #c300ff;
+}
+
+.reviews .title-name
+{
+    text-transform: capitalize;
+    text-align: center;
+}
+.reviews .element
+{
+    display: flex;
+    justify-content: center;
+}
+.reviews .left-element
+{
+    display: inline-block;
+    width: 40%;
+    overflow: hidden;
+    text-align: center;
+}
+.reviews .left-element img
+{
+    display: inline-block;
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    padding: 5px ;
+    background: transparent;
+    border: 2px solid #6dd5ed;
+}
+
+.reviews .right-element
+{
+
+    display: inline-block;
+    width: 58%;
+    margin-top: 15px;
+    text-align: center;
+}
+.reviews .right-element .rat
+{
+    display: block;
+}
+.reviews .right-element .rat .fa-star
+{
+    color: #6dd5ed;
+
+}
+.reviews .right-element h4
+{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 0;
+    text-transform: capitalize;
+}
+.reviews .right-element h5{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 14px;
+
+    color: #6dd5ed;
+}
+.review-pages
+{
+  padding: 40px 0;
+}
+.review-pages .page
+{
+  margin: 15px 0 0 0;
+}
+.review-pages .page h4
+{
+  color: #000;
+  text-transform: capitalize;
+}
+.review-pages .page .image-content
+{
+  width: 200px;
+  margin: auto;
+}
+.review-pages .page .image-content img
+{
+  transition: all 0.5s;
+  filter: grayscale(1);
+}
+.review-pages .page .image-content:hover img
+{
+  filter: grayscale(0);
+}
+
+/***********************************************
+--------- strart egypt safty updates -----------
+************************************************/
+.title .btn.country
+{
+    padding:5px 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: 1px solid #6dd5ed;
+    margin-right: 5px;
+    color: #6dd5ed;
+    border-radius: 10px;
+}
+.title .btn.country:hover
+{
+    
+    background: #6dd5ed;
+    color: #fff;
+}
+/*start accordion*/
+.info-accordion
+{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.accordion > .card
+{
+    margin: 10px 0;
+}
+.accordion > .card .card-header {
+
+    padding: 0;
+    background: linear-gradient(90deg, #08526d,#2193b0, #6dd5ed);
+    
+}
+.accordion > .card .card-header  .btn
+{
+    color: #fff;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.accordion > .card .card-body
+{
+        color: #777;
+    font-size: 15px;
+}
+
+/*******************************************
+---------- egypt travel blog ---------------
+********************************************/ 
+.egypt-blog
+{
+    padding: 60px 0;
+    
+}
+.egypt-blog .btn.yet.see-more
+{
+    font-weight: bold;
+    min-width: 250px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.egypt-blog .card
+{
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 25px;
+}
+.egypt-blog .card a 
+{
+    position: relative;
+}
+.egypt-blog .card a::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#08526d,#2193b0,#6dd5ed);
+    transition: all 400ms;
+    opacity: 0;
+}
+.egypt-blog .card a:hover::before
+{
+   opacity: 0.5;
+}
+.egypt-blog .card .card-body
+{
+    padding: 5px 0;
+}
+.egypt-blog .card .card-body a
+{
+    text-transform: uppercase;
+    transition: all 400ms;
+}
+.egypt-blog .card .card-footer
+{
+    background: transparent;
+    border:0;
+    padding: 0;
+    margin: 0;  
+}
+/*********************************************
+---------------- contact us ------------------
+************************************************/
+.content-data  
+{
+    padding: 20px 0;
+}
+.contact
+{
+    padding: 60px 0 ;
+}
+
+.contact-items .lade
+{
+    color: #777;
+    font-size: 18px;
+    padding: 0 30px 20px 30px ;
+    
+}
+
+.contact-info 
+{
+    padding: 30px 0;
+    background: linear-gradient(90deg,#08526d,#2193b0,#6dd5ed);
+    color: #fff;
+}
+.contact-info .icon
+{
+    font-size: 2.7rem;
+}
+.contact-info h4
+{
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.contact-info p
+{
+    font-size: 14px;
+}
+.contact
+{
+    padding: 60px 0 ;
+    overflow: hidden;
+}
+.contact .contact-form .form-group label
+{
+    text-transform: capitalize;
+    font-weight: 18px;
+    font-weight: bold;
+    color: #666666;
+}
+.contact .contact-form .form-group label span
+{
+    color:#2193b0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.contact .contact-form .form-group .form-control
+{
+    height: calc(1.5em + 0.75rem + 2px);
+    border-radius: 0;
+}
+.contact .contact-form .form-group .form-control:focus
+{
+    box-shadow: none;
+}
+.contact .contact-form .form-group .form-control.text-area
+{
+    height: calc(3em + 0.75rem + 2px); ;
+}
+/*******************************************
+--------------- start tailor ---------------
+********************************************/
+.tailor-made form
+{
+    width: 80%;
+    margin: auto;
+    padding:0 0  60px 0;
+}
+.tailor-made form .form-control
+{
+     height: calc(2em + 0.75rem + 2px);
+     border-radius: 1rem;
+     text-transform: capitalize;
+}
+.tailor-made form  .label > label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #6dd5ed;
+    color: #444444;
+}
+.tailor-made form  .custom-radio label
+{
+    text-transform: uppercase;
+   
+    cursor: pointer;
+    
+}
+/*******************************************
+
+--------------- start tailor ---------------
+
+********************************************/
+
+.blog-inside
+{
+    padding: 60px 0;
+}
+.blog-inside .information
+{
+   
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px hsla(191, 78%, 68%, 0.733);
+}
+.blog-inside .information h2
+{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #444;
+}
+.blog-inside .information p
+{
+    
+    color: #666;
+}
+.blog-inside .blog-icon
+{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #08526d;
+}
+.blog-inside .blog-icon ul li
+{
+    display: inline-block;
+    font-size:1.5rem;
+    margin: 0 5px;
+    transition: all 400ms;
+}
+/*******************************************
+************ start checkout ****************
+********************************************/
+.check-content
+{
+    padding: 60px 0;
+}
+
+.check-content .card .card-price
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 5px 0;
+}
+.check-content .card .card-price .card-title{
+    font-size: 1.5rem;
+    color: #08526d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.check-content .card  .card-items
+{
+    display: flex;
+    justify-content: space-between;
+    color: #6dd5ed;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+.check-content .close-checkout
+{
+    cursor: pointer;
+    position: absolute;
+    bottom:10px ;
+    right: 10px;
+    color: #08526d;
+    transition: all 400ms;
+}
+.check-content .close-checkout:hover
+{
+    color: #6dd5ed;
+}
+.emty-checkout
+{
+    padding:60px 0 ; 
+}
+
+
+
+.book-form
+{
+    padding: 60px 0;
+}
+/**********************/
+
+.schedule-block
+{
+    margin: -61px 0 30px 0;
+    padding: 20px 15px;
+    width: 100%;
+    background: linear-gradient(90deg,#08526d,#2193b0 , #6dd5ed);
+    position: relative;
+    z-index: 2;
+}
+
+.schedule-block .element
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0 ;
+    padding: 0 5px;
+    
+}
+.schedule-block .element
+{
+    display: flex;
+}
+.schedule-block .element .icon
+{
+    color: #fff;
+    margin: 10px 10px 0 0;
+}
+.schedule-block .element .data p
+{
+    padding: 0;
+    margin: 0px 0 -7px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+.schedule-block .element .data > span
+{
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0 ;
+    font-weight: 700;
+    font-size: 1.4rem   ;
+    color: #fff;
+}
+.schedule-block .element .data span sub
+{
+    font-weight: 600;
+    font-size: 16px;   
+}
+.schedule-block .element .data span i
+{
+    font-size: 14px;
+    margin-left: -2px;
+}
+.schedule-block .element .btn.tour
+{
+    color: #fff;
+    background: #08526d;
+    border: none;
+    font-weight: bold;
+    padding: 14px 36px;
+    width: 100%;
+    letter-spacing: 0.2px;
+    margin: auto;
+    font-size: 14px;
+    transition: all 0.5s;
+    outline: 0;
+}
+
+@media (max-width:400px){
+    .schedule-block{
+            padding: 17px 10px;
+    }
+    .schedule-block .element .icon
+    {
+            
+             font-size: 0.8rem;
+    }
+    .schedule-block .element .data p{
+        font-size: 13px;
+    }
+    .schedule-block .element .data > span{
+            font-size: 1.1rem;
+    }.schedule-block .element .btn.tour{
+            padding: 14px 23px;
+                font-size: 13px;
+    }
+}
+.book-form .form-control
+{
+    height: calc(2.5em + 0.75rem + 2px);
+    padding: 0.375rem 1rem;
+    color: #2193b0;
+    border-radius: 0;
+    font-size:1.1rem;
+    border: none;
+    box-shadow: 0 0 1px rgba(0,0,0,0.9);
+    transition: all 0.4s;
+}
+.book-form    .form-control:focus
+{
+    box-shadow: 0 0 8px rgb(33, 147, 176,0.8);
+}
+.book-formform
+{
+    width: 90%;
+    margin: auto;
+}
+.book-form form label
+{
+    text-transform: capitalize;
+    color: #08526d;
+    font-weight: bold;
+    cursor: pointer;
+}
+.book-form form  .check-box
+{
+    margin: 30px 0;
+}
+/************************************
+--------- start tailor inside --------
+*************************************/
+.tailor-inside
+{
+    padding: 40px 0 0 0 ;
+    min-height: 250px;
+    font-size: 1.2rem;
+}
+.tailor-inside .nav-item .nav-link
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0;
+    letter-spacing: 1px;
+}
+.tailor-inside .tab-pane
+{
+    margin-top: 40px;
+}
+.tailor-inside h4
+{
+    text-transform: capitalize;
+    color: #555;
+    font-weight: bold;
+}
+.tailor-inside h4 span
+{
+    margin-right: 10px;
+    color: #222;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tailor-inside .include h5,
+.tailor-inside .exclude h5
+{
+    margin-bottom: 10px;
+    color: #555;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.tailor-inside .include ul li::before
+{
+     font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    margin-right:10px;
+    display: inline-block;
+    color: #2193b0;
+}
+.tailor-inside .exclude ul li::before
+{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f057";
+    display: inline-block;
+    margin-right: 10px;
+    color: #525252;
+}
+.tailor-price 
+{
+    padding: 40px 0;
+}
+.tailor-price  h4
+{
+    
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.tailor-price  p.price
+{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #08526d;
+}
+.tailor-price form p
+{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.tailor-price .btn.book
+{
+    width: 100%;
+    padding: 4px 28px;
+    margin-left: -22px;
+}
+.tailor-price .btn.book:hover
+{
+    transform: translateY(0);
+}
+.edit-profile
+{
+    padding: 40px 0;
+    width: 80% ;
+    margin: auto;
+}

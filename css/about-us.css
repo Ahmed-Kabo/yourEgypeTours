@@ -1,0 +1,104 @@
+.img-header
+{
+
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+.img-header
+{
+    background: url(../img/) scroll center bottom no-repeat;
+}
+.img-header .overlay
+{
+    background: rgba(0,0,0,0.4)
+}
+.img-header nav
+{
+    position: absolute;
+    bottom: 0;
+}
+.breadcrumb
+{
+    background: transparent;
+}
+ .breadcrumb-item
+{
+    font-size: 20px;
+    text-transform: capitalize
+}
+.breadcrumb-item.active
+{
+    color: #dddddd
+}
+.breadcrumb-item + .breadcrumb-item::before
+{
+    content: "|";
+}
+.breadcrumb li a{
+    color: #2193b0;
+    transition: all 0.4s
+}
+.breadcrumb li a:hover
+{
+    color: #6dd5ed;
+}
+
+.img-header  .title-header
+{
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.img-header .h1
+{
+font-size: 3.2rem;
+color: #ffffff;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.img-header h2
+{
+    color: #ffffff;
+    text-transform: capitalize;
+    
+}
+@media (max-width:768px)
+{
+    .img-header .h1
+    {
+    font-size: 2.5rem;
+
+    }
+    .img-header h2
+    {
+       font-size: 1.4rem;
+        
+    }
+}
+.title .content 
+{
+    padding: 40px 0;
+}
+ h3
+{
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+ h3 span
+{
+    background: linear-gradient(90deg,#2193b0 , #6dd5ed);
+    width: 60px;
+    height: 2px;
+    display: inline-block
+}
+.title .content p
+{
+    color: #777777;
+    font-size: 15px;
+}
+

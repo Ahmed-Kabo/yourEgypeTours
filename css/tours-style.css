@@ -1,0 +1,239 @@
+/*start sorting price
+------------------------------------------*/
+.sorting
+{
+    padding: 10px 0;
+}
+.sorting .numer-of-tours p
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+    padding-left: 20px;
+}
+.sorting .form-control
+{
+    color: #2193b0;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 1px solid #2193b0;
+    cursor: pointer;
+    
+}
+
+
+
+/*background image 
+----------------------------*/
+.img-header.luxury
+{
+    background: url(../img/tage-tour.jpg) scroll center bottom no-repeat;
+}
+/* start out tours 
+----------------------------------------------------*/
+.our-tours
+{
+    padding: 40px 0;
+}
+.our-tours .card
+{
+     padding: 0 !important;
+    margin: 25px 0;
+    border: 0;
+    border-radius: 0;
+    transition: all 400ms;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.our-tours .item-card-link {
+    position: relative;
+    height: 200px;
+}
+
+.our-tours .item-card-link img
+ {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.our-tours .item-card-link::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(90deg,#003c4b9e, #2193b073, #6dd5ed73);
+    pointer-events: none;
+    opacity: 0;
+    transition: all 400ms;
+
+}
+.our-tours .item-card-link::before
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    z-index: 2;
+    background: linear-gradient(90deg,#2193b0 , #6dd5ed);
+    transition: all 400ms;
+}
+.our-tours .item-card-link .price
+{
+    position: absolute;
+    top: -5px;
+    left: -8px;
+    width: 100%;
+    z-index: 3;
+    pointer-events: none;
+}
+.our-tours .item-card-link .price .offers
+{
+
+    background: #dc3545;
+    margin: 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 4px;
+    min-width: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.our-tours .item-card-link .price .price-info span
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-right: 2px;
+    font-size: 14px;
+}
+.our-tours .item-card-link .price .price-info
+{
+    osition: absolute;
+    top: 24px;
+    left: 0;
+    display: inline-block;
+    background: linear-gradient(90deg,#2193b0 , #6dd5ed);
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.28); 
+    padding: 6px;
+    text-align: center;
+}
+.our-tours .item-card-link .price .price-info::before
+{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: -8px;
+    border-top: 8px solid transparent;
+    border-right: 8px solid #2294b1;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+.our-tours .card-body
+{
+    padding: 0.8rem ;
+}
+.our-tours .card-body .card-title.h4
+{
+    color: #444444;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    transition: all 400ms;
+}
+.our-tours .card-body .card-title.days
+{
+    color: #777;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.our-tours .card-body .card-tags
+{
+    padding: 0 0 20px 0 ;
+
+}
+.our-tours .card-body .card-tags .tages 
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.our-tours .card-body .card-tags .tages a{color: #6dd5ed;text-transform: capitalize;}
+ .card-body a:hover
+{
+    text-decoration: none
+}
+ .our-tours .card-body a:hover .card-title
+{
+    color: #2193b0;
+}
+ .our-tours .card-body .card-text
+{
+  color: #777777;
+  font-size: 16px;
+  max-height: 71px;
+  overflow: hidden;
+  padding: 0;
+  margin: 10px 0;
+}
+.our-tours .card-body .card-end
+{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.our-tours .card-body .card-end .card-review
+{
+  
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.our-tours .card-body .evaluation i{
+    color: #2193b0;
+}
+.our-tours .card-body  .card-link
+{
+    font-size: 18px;
+    text-transform: capitalize;
+     transition: all 0.3s;
+     color: #2193b0;
+
+}
+.our-tours .card-body  .card-link::after
+{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    transition: all 0.5s;
+
+}
+.our-tours .card-body  .card-link:hover::after
+{
+    margin-left: 20px;
+}
+.our-tours  .card:hover
+{
+     transform: translateY(-.625em);
+    box-shadow: 0px 4px 18px rgba(0,0,0,0.2);
+}
+.our-tours  .card:hover .item-card-link::after
+{
+    opacity: 1;
+}
+.our-tours  .card:hover .item-card-link::before
+{
+    width: 100%;
+}
+
